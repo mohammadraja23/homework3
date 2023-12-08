@@ -1,0 +1,47 @@
+img {
+    margin:20px;
+    padding: 40px;
+    border:7px solid rgb(172, 255, 49);
+}
+.list-container {
+    background-color: rgba(29, 29, 29, 0.967);
+    color:rgb(255, 255, 255);
+    float: right;
+    position: relative;
+    right:400px;
+    top:195px;
+}
+.background {
+    background-image:url('pictures/css-full-page-background.avif') ;
+    height: 487px;
+    padding: 20px;
+}
+h1,h2,.chertopert {
+    text-align: center;
+    color:#ffffff;
+    font-family: 'Courier New', Courier, monospace;
+}
+.button p {
+    margin:0px;
+    padding:0px;
+    position: absolute;
+    left: 15px;
+    top:5px;
+}
+.button {
+    text-align: center;
+    margin: 0cm;
+    margin-top:10px;
+    background-color: #ffffff;
+    display: inline-block;
+    position: relative;
+    left: calc(50% - 50px);
+    width: 100px;
+    height:30px;
+    border-radius: 50%;
+    transition:ease 0.5s ;
+}
+.button:hover {
+    background-color: rgb(188, 209, 255);
+    border-radius: 0px;
+}
